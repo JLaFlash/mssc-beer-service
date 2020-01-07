@@ -1,3 +1,5 @@
+# mssc-beer-service
+[![CircleCI](https://circleci.com/gh/JLaFlash/mssc-beer-service.svg?style=svg)](https://circleci.com/gh/JLaFlash/mssc-beer-service)
 # SFG Spring REST Docs Example
 
 This repository contains source code examples used to support my on-line courses about the Spring Framework.
