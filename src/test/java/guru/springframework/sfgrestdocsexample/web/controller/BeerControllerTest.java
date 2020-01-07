@@ -1,6 +1,7 @@
 package guru.springframework.sfgrestdocsexample.web.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import guru.springframework.sfgrestdocsexample.bootstrap.BeerLoader;
 import guru.springframework.sfgrestdocsexample.domain.Beer;
 import guru.springframework.sfgrestdocsexample.repositories.BeerRepository;
 import guru.springframework.sfgrestdocsexample.web.model.BeerDto;
@@ -122,7 +123,7 @@ class BeerControllerTest {
                 .beerName("Nice Ale")
                 .beerStyle(BeerStyleEnum.ALE)
                 .price(new BigDecimal("9.99"))
-                .upc(123123123123L)
+                .upc(BeerLoader.BEER_1_UPC)
                 .build();
 
     }

@@ -39,9 +39,9 @@ public class BeerDto {
     @NotNull
     private BeerStyleEnum beerStyle;
 
-    @Positive
-    @NotNull
-    private Long upc;
+    @NotBlank
+    @Size(min = 13, max = 13)
+    private String upc;
 
     @Positive
     @NotNull
