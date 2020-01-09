@@ -39,3 +39,6 @@ jobs:
 
       # run tests!
       - run: mvn integration-test
+notify:
+  webhooks:
+    - https://outlook.office.com/webhook/30dbbf0e-6138-48f2-a977-07f9c7cc76e0@483aa17f-7d7b-49c9-a34a-71dba6be29f6/CircleCI/3bb9331eaa1d4866b0d1d403f6f64a7f/70e99a0e-0a1b-43f6-8bf4-1f6fe67aa219
